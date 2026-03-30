@@ -24,6 +24,8 @@ const aj = arcjet({
       allow: [
         "CATEGORY:SEARCH_ENGINE", // Google, Bing, etc.
         "CATEGORY:PREVIEW", // Link previews (Slack, Discord, etc.)
+       
+        
       ],
     }),
   ],

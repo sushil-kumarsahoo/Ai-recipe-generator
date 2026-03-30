@@ -5,6 +5,8 @@ const STRAPI_URL =
 const STRAPI_API_TOKEN = process.env.STRAPI_API_TOKEN;
 
 export const checkUser = async () => {
+  console.log("🔍 STRAPI_URL:", STRAPI_URL);
+  console.log("🔍 STRAPI_API_TOKEN exists:", !!STRAPI_API_TOKEN);
   const user = await currentUser();
 
   if (!user) {
