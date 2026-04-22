@@ -30,7 +30,7 @@ export default function PricingSection({ subscriptionTier = "free" }) {
           <CardHeader>
             <CardTitle className="text-3xl font-bold">Sous Chef</CardTitle>
             <div className="text-5xl font-bold text-stone-900">
-              $0
+              Rs.0
               <span className="text-lg font-normal text-stone-400">/mo</span>
             </div>
             <CardDescription className="text-stone-600 font-light text-base">
@@ -77,7 +77,7 @@ export default function PricingSection({ subscriptionTier = "free" }) {
               Head Chef
             </CardTitle>
             <div className="text-5xl font-bold text-orange-600">
-              $7.99
+              Rs.399
               <span className="text-lg font-normal text-orange-400">/mo</span>
             </div>
             <CardDescription className="text-orange-800/70 font-light text-base">
